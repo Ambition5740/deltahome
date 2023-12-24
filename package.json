@@ -1,0 +1,36 @@
+{
+  "name": "deltahome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.15.0",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.1.0",
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^7.0.1",
+    "helmet": "^4.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^6.3.0",
+    "mongoose": "^5.13.21",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0",
+    "react": "^17.0.1",
+    "react-redux": "^7.2.9",
+    "redux": "^4.2.1",
+    "socket.io": "^4.7.2"
+  }
+}
